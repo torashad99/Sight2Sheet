@@ -170,3 +170,24 @@ ONLINE (post-mission)
 Non-goals for this build: custom-trained detection models (COCO defaults + OCR only),
 multi-user/multi-headset sessions, gesture confirmation, TTS voice feedback, and on-device
 LLM inference.
+
+## Citation
+
+This project was presented at Sandia National Laboratories' 8th Annual XR Conference
+(Albuquerque, NM, 2026). If you reference or build on this work, please cite:
+
+> Mohammed Rashad. "Sight2Sheet: From Mixed Reality Walkthrough to Structured Inspection
+> Record via On-Device Computer Vision." Presented at Sandia National Laboratories' 8th
+> Annual XR Conference, Albuquerque, NM, 2026.
+
+```bibtex
+@inproceedings{rashad2026sight2sheet,
+  author       = {Rashad, Mohammed},
+  title        = {Sight2Sheet: From Mixed Reality Walkthrough to Structured Inspection
+                  Record via On-Device Computer Vision},
+  booktitle    = {Sandia National Laboratories' 8th Annual XR Conference},
+  address      = {Albuquerque, NM},
+  year         = {2026},
+  affiliation  = {University of Illinois Urbana-Champaign}
+}
+```
