@@ -1,0 +1,42 @@
+<style>
+  .banner {
+    align-items: center;
+    padding: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #09090b;
+    background-opacity: 0.55;
+    border-color: #27272a;
+    border-width: 0.15;
+    border-radius: 2;
+  }
+
+  .mode-text {
+    font-size: 3;
+    font-weight: medium;
+    color: #fafafa;
+    text-align: center;
+  }
+
+  .queue-text {
+    font-size: 2;
+    color: #a1a1aa;
+    text-align: center;
+    margin-top: 0.3;
+  }
+
+  .status-text {
+    font-size: 1.8;
+    color: #4ade80;
+    text-align: center;
+    margin-top: 0.3;
+  }
+</style>
+<div class="banner">
+  <span id="mode-text" class="mode-text">OFFLINE</span>
+  <span id="queue-text" class="queue-text">0 queued</span>
+  <!-- Needs real initial text: a whitespace-only span compiles to children:[]
+       and UIKit then creates no Text node, making setProperties({text}) a
+       silent no-op (the "toasts never show" bug). -->
+  <span id="status-text" class="status-text">ready</span>
+</div>

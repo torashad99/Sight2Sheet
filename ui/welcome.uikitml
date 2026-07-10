@@ -1,0 +1,80 @@
+<style>
+  .panel-container {
+    align-items: flex-start;
+    padding: 2;
+    width: 50;
+    display: flex;
+    flex-direction: column;
+    background-color: #09090b;
+    background-opacity: 0.85;
+    border-color: #27272a;
+    border-width: 0.15;
+    border-radius: 3;
+  }
+
+  .heading {
+    font-size: 4;
+    font-weight: medium;
+    color: #fafafa;
+    text-align: left;
+  }
+
+  .sub-heading {
+    font-size: 2;
+    color: #a1a1aa;
+    text-align: left;
+    margin-top: 0.3;
+  }
+  
+  #xr-button {
+    width: 100%;
+    padding: 1.5;
+    margin-top: 2;
+    background-color: #fafafa;
+    color: #09090b;
+    border-radius: 1.5;
+    border-width: 0.1;
+    border-color: #e4e4e7;
+    font-size: 2.5;
+    font-weight: medium;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #airgap-button {
+    width: 100%;
+    padding: 1.2;
+    margin-top: 1;
+    background-color: #09090b;
+    color: #fafafa;
+    border-radius: 1.5;
+    border-width: 0.1;
+    border-color: #3f3f46;
+    font-size: 2;
+    font-weight: medium;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #clear-queue-button {
+    width: 100%;
+    padding: 1.2;
+    margin-top: 1;
+    background-color: #09090b;
+    color: #f87171;
+    border-radius: 1.5;
+    border-width: 0.1;
+    border-color: #3f3f46;
+    font-size: 2;
+    font-weight: medium;
+    text-align: center;
+    cursor: pointer;
+  }
+</style>
+<div class="panel-container">
+  <span class="heading"> Sight2Sheet </span>
+  <span class="sub-heading"> Hands-free mixed-reality inspection. Detections and voice-confirmed findings are logged on-device - the fieldwork loop works with zero network.</span>
+  <button id="xr-button">Enter XR</button>
+  <button id="airgap-button">Airgap Mode: Off</button>
+  <button id="clear-queue-button">Clear Queue</button>
+</div>
