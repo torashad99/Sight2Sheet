@@ -1,6 +1,6 @@
 # Sight2Sheet
 
-A hands-free mixed-reality inspection assistant for Meta Quest 3. The inspector describes
+A hands-free mixed-reality inspection assistant for any XR headset/glasses. The inspector describes
 what to look for in natural language, an on-device computer-vision pipeline scans the
 passthrough camera feed for it, and confirmed findings are logged with spatial and
 temporal metadata — all without a network connection.
