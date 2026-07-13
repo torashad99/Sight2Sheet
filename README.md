@@ -5,6 +5,9 @@ what to look for in natural language, an on-device computer-vision pipeline scan
 passthrough camera feed for it, and confirmed findings are logged with spatial and
 temporal metadata — all without a network connection.
 
+<img width="1060" height="1030" alt="s2sillustration" src="https://github.com/user-attachments/assets/c271828c-eb59-4588-93f1-6d11c3e9a0cd" />
+
+
 > "The inspector keeps judging; the glasses keep logging — even without a signal."
 
 Built on the [Immersive Web SDK (IWSDK)](https://github.com/meta-quest/immersive-web-sdk) +
