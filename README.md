@@ -1,5 +1,7 @@
 # Sight2Sheet
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21349774.svg)](https://doi.org)
+
 A hands-free mixed-reality inspection assistant for any XR headset/glasses. The inspector describes
 what to look for in natural language, an on-device computer-vision pipeline scans the
 passthrough camera feed for it, and confirmed findings are logged with spatial and
@@ -184,14 +186,13 @@ This project was presented at Sandia National Laboratories' 8th Annual XR Confer
 > Annual XR Conference, Albuquerque, NM, 2026.
 
 ```bibtex
-@inproceedings{rashad2026sight2sheet,
+@misc{rashad2026sight2sheet,
   author       = {Rashad, Mohammed},
-  title        = {Sight2Sheet: From Mixed Reality Walkthrough to Structured Inspection
-                  Record via On-Device Computer Vision},
-  booktitle    = {Sandia National Laboratories' 8th Annual XR Conference},
-  address      = {Albuquerque, NM},
+  title        = {Sight2Sheet: From Mixed Reality Walkthrough to Structured Inspection Record via On-Device Computer Vision},
+  howpublished = {Presented at Sandia National Laboratories' 8th Annual XR Conference, Albuquerque, NM},
   year         = {2026},
-  affiliation  = {University of Illinois Urbana-Champaign},
-  doi          = {10.5281/zenodo.21349774}
+  institution  = {University of Illinois Urbana-Champaign},
+  doi          = {10.5281/zenodo.21349774},
+  url          = {https://doi.org}
 }
 ```
