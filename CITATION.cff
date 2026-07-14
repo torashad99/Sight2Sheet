@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Rashad"
+    given-names: "Mohammed"
+    affiliation: "University of Illinois Urbana-Champaign"
+title: "Sight2Sheet: From Mixed Reality Walkthrough to Structured Inspection Record via On-Device Computer Vision"
+version: 1.0.0
+doi: 10.5281/zenodo.21349774
+date-released: 2026-07-13
+url: "https://github.com"
+preferred-citation:
+  type: presentation
+  authors:
+    - family-names: "Rashad"
+      given-names: "Mohammed"
+      affiliation: "University of Illinois Urbana-Champaign"
+  title: "Sight2Sheet: From Mixed Reality Walkthrough to Structured Inspection Record via On-Device Computer Vision"
+  conference:
+    name: "Sandia National Laboratories' 8th Annual XR Conference"
+    address: "Albuquerque, NM"
+  year: 2026
+  doi: 10.5281/zenodo.21349774
