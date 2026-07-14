@@ -191,7 +191,7 @@ This project was presented at Sandia National Laboratories' 8th Annual XR Confer
   booktitle    = {Sandia National Laboratories' 8th Annual XR Conference},
   address      = {Albuquerque, NM},
   year         = {2026},
-  affiliation  = {University of Illinois Urbana-Champaign}
+  affiliation  = {University of Illinois Urbana-Champaign},
   doi          = {10.5281/zenodo.21349774}
 }
 ```
