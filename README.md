@@ -1,6 +1,6 @@
 # Sight2Sheet
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21349774.svg)](https://doi.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21349774.svg)](https://doi.org/10.5281/zenodo.21349774)
 
 A hands-free mixed-reality inspection assistant for any XR headset/glasses. The inspector describes
 what to look for in natural language, an on-device computer-vision pipeline scans the
